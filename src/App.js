@@ -1,20 +1,15 @@
 import React from 'react';
 import './App.css';
+// import comp
+import Form from "./components/Form"; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <ul class="header-list">
-          <h1 class="branding">hellos</h1>
-          <li class="header-list-item"><a class="link" href="#">About</a></li>
-          <li class="header-list-item"><a class="link" href="#">Work</a></li>
-          <li class="header-list-item"><a class="link" href="#">Contact</a></li>
-        </ul>
+      <header>
+        <h1>hello 2DOz</h1>
       </header>
-      <div class="app-section">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-      </div>
+      <Form />
     </div>
   );
 }
